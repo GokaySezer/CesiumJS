@@ -1,89 +1,115 @@
 const sports = {
-        "type": "FeatureCollection",
-        "name": "sports",
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "Title": "5-a-side pitch John Paul II Park",
-              "Description": "Got nine friends? Hire a pitch to play 5-a-side football",
-              "Address 1": "Cabra Parkside Community and Sports Centre",
-              "Address 2": "John Paul II Park, Ratoath Road",
-              "NACE code": "93.11",
-              "Region": "Dublin City Council",
-              "DccArea": "Central",
-              "CensusSmallArea": "268006018",
-              "ElectoralDivision": "Ashtown A"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [-6.307183532, 53.36816339]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "Title": "5-a-side pitch Lourdes Celtic FC",
-              "Description": "Got nine friends? Hire a pitch to play 5-a-side football",
-              "Address 1": "Old County Glen",
-              "Address 2": "",
-              "NACE code": "93.11",
-              "Region": "Dublin City Council",
-              "DccArea": "South East",
-              "CensusSmallArea": "268054010",
-              "ElectoralDivision": "Crumlin D"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [-6.300615509, 53.32772147]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "Title": "5-a-side pitch Oisin Kelly Park",
-              "Description": "Got nine friends? Hire a pitch to play 5-a-side football",
-              "Address 1": "Upper Basin Street",
-              "Address 2": "",
-              "NACE code": "93.11",
-              "Region": "Dublin City Council",
-              "DccArea": "South Central",
-              "CensusSmallArea": "268150006",
-              "ElectoralDivision": "Ushers C"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [-6.290931235, 53.34196807]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "Title": "5-a-side pitches Astro Park",
-              "Description": "Got nine friends? Hire a pitch to play 5-a-side football",
-              "Address 1": "Coolock Lane",
-              "Address 2": "",
-              "NACE code": "93.11",
-              "Region": "Dublin City Council",
-              "DccArea": "North Central",
-              "CensusSmallArea": "268088010",
-              "ElectoralDivision": "Kilmore A"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [-6.230074944, 53.39719297]
-            }
-          },
-        ],
-      };
-
-
-export {
-    sports
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Schwere-Reiter-Str. Ecke Ackermannstr.'",
+        "specialFeatures": "Skate park",
+        "ageGroup": "Teens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.552318303568878, 48.1634805031483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Sendlinger Wald (Südpark), Fitness Circuit'",
+        "specialFeatures": "Fitness circuit",
+        "ageGroup": "Teens, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.507670995604352, 48.10476463890477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fitness Circuit 'Merseburger Str.'",
+        "specialFeatures": "Giant chess, Fitness circuit",
+        "ageGroup": "Teens, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.516681652475238, 48.18780274519349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Hogenbergplatz, Fitness Circuit'",
+        "specialFeatures": "Fitness circuit",
+        "ageGroup": "Teens, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.507236017551785, 48.13695922485689]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fitness Circuit 'Oskar-Maria-Graf-Ring'",
+        "specialFeatures": "Giant chess, Fitness circuit",
+        "ageGroup": "Teens, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.664220967035789, 48.09565988998664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Goteboldstr., Dirtbike'",
+        "specialFeatures": "Dirtbike",
+        "ageGroup": "Teens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.43755884798746, 48.18298708949316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Hans-Mielich-Platz'",
+        "specialFeatures": "Giant chess, Boule court, Water play",
+        "ageGroup": "School children, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.56901227259241, 48.11629748008379]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fitness Circuit 'Oberhofer Platz'",
+        "specialFeatures": "Giant chess, Fitness circuit",
+        "ageGroup": "Teens, Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575827706169918, 48.18740634531224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playground 'Kazmairstr., Play Street'",
+        "specialFeatures": "Streetball",
+        "ageGroup": "Adults"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.532302178567882, 48.13531460787104]
+      }
+    }
+  ]
 };
+
+export { sports };
